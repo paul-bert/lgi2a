@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+}
+
+.navbar-brand img {
+  max-height: 50px;
+}
+
+header .row {
+  min-height: 70vh;
+  background-image: url(../img/accueil.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+}
+
+header .formReservation {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 70vh;
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-family: "Dancing Script", cursive;
+}
+
+header h2 {
+  font-family: "Dancing Script", cursive;
+  margin-bottom: 50px;
+}
+
+header .slogan {
+  display: flex;
+  min-height: 70vh;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+@media (max-width: 768px) {
+  header .slogan {
+    display: none;
+  }
+}
+
+#presentation .media span {
+  color: #81ac36;
+  font-size: 3rem;
+  width: 4rem;
+  text-align: center;
+}
+
+#presentation .media {
+  padding: 1rem 1rem;
+  border-radius: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+#presentation .media:hover {
+  background-color: rgba(130, 130, 130, 0.3);
+}
+
+#video .row {
+  min-height: 70vh;
+  padding: 2rem 1rem;
+}
+
+#avis .row {
+  min-height: calc(85vh - 80px);
+}
+
+.fondLivre {
+  height: calc(100vh - 80px);
+  background-image: url(../img/avis.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+.avisClient {
+  min-height: calc(100vh - 80px);
+  background-color: #d3dae4;
+}
+.avisClient span {
+  font-size: 5rem;
+  color: #17a2b8;
+}
+.avisClient h5 {
+  font-size: 2rem;
+  color: #888;
+}
+
+#contact {
+  background-image: url(../img/mail.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+}
+#contact .row {
+  height: calc(85vh - 80px);
+}
+
+.formContact {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 2rem 1rem;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #999;
+  padding-top: 1rem;
+}
+.adresse {
+  font-size: 1rem;
+}
+
+.logo {
+  font-size: 3rem;
+}
+
+footer a {
+  color: #999;
+  transition: all 0.2s ease-in-out;
+}
+
+footer a:hover {
+  color: #fff;
+  text-decoration: none;
+}
